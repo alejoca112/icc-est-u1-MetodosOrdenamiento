@@ -2,7 +2,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         //tipoVariable nombreVariable = valorVariable;
         int[]numeros = {10,0,-5,5,15,2};
-        printArray(numeros); //Imprimo
+        //printArray(numeros); //Imprimo
+
+        System.out.println("Estudiante: Geovanny Cabrera");
         System.out.println("Metodo Ordenado");
         
         
@@ -11,31 +13,28 @@ public class App {
         //printArray(numeros);
         //CREO LA CLASE SORTBUBBLE
         //CREAR LA CLASE == INSTANCIAR LA CLASE
-        SortBubble claseSortBubble = new SortBubble();
+        //SortBubble claseSortBubble = new SortBubble();
         //claseSortBubble.printArray(numeros); //Imprime
         //claseSortBubble.sortBubble(numeros); //ORDENA
         //System.out.println("Ordenado");
         //claseSortBubble.printArray(numeros);//Imprime
 
-        claseSortBubble.sortBubbleAvzAscendente(numeros);
-        claseSortBubble.printArray(numeros); //Imprime
+        //claseSortBubble.sortBubbleAvzAscendente(numeros);
+        //claseSortBubble.printArray(numeros); //Imprime
 
-        claseSortBubble.sortBubbleAvzDescendente(numeros);
-        claseSortBubble.printArray(numeros);
-    }
-    public static void printArray(int[] numeros) {
-        System.out.println("[");
-        for (int i = 0; i < numeros.length; i++) {
+        //claseSortBubble.sortBubbleAvzDescendente(numeros);
+        //claseSortBubble.printArray(numeros);
 
-            if (i == numeros.length - 1) {
-                System.out.println(numeros[i]);
-            } else {
-                System.out.print(numeros[i]+ ", ");
-            }
-            
-            
-        }
-        System.out.println("]");
-    }   
-    
+        //Selection
+        SortSelection claseSortSelection = new SortSelection();
+        System.out.println("Metodo Seleccion");
+        System.out.println("Original");
+        claseSortSelection.printArray(numeros);
+        claseSortSelection.SortAscendente(numeros);
+        System.out.println("Ordenado Ascendente: ");
+        claseSortSelection.printArray(numeros);
+        System.out.println("Ordenado Descendente: ");
+        claseSortSelection.SortDescendente(numeros);
+        claseSortSelection.printArray(numeros);
+    }    
 }
