@@ -24,15 +24,21 @@ Salida de Java
 ## Insertion Sort
 Salida de Java 
 ## Arreglo de numeros Enteros
-![alt text](<assets/InsertionSort(Cadena Numeros).png>)
+![alt text](assets/int.png)
 
 ## Arreglo de cadena
 Salida de Java
-![alt text](<assets/InsertionSort(Cadena Nombres).png>)
+![alt text](assets/cad.png)
 
-## Arreglo de Personas ordenado por Nombre
+## Arreglo de Personas Ordenado por Nombre
 Salida de Java
-![alt text](<assets/InsertionSort(Arreglo de Personas por Nombre).png>)
+![alt text](assets/pN.png)
+
+## Arreglo de Personas Ordenado por Edades
+Salida de Java
+![alt text](assets/pA.png)
+
+
 
 
 
