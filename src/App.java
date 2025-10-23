@@ -54,7 +54,7 @@ public class App {
         //System.out.println("Arreglo Ordenado");
         //sortCadena.printArray(nombres);
 
-            System.out.println("Ordenamiento de nombres");
+            System.out.println("Ordenamiento de Nombres y Edades");
             Persona[] personas = new Persona[] {
             new Persona("Pedro", 30),
             new Persona("Ana", 25 ),
