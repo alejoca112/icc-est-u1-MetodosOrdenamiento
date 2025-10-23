@@ -19,3 +19,20 @@ Salida de Python
 Salida de Java
 ![alt text](assets/sortSelectionJv.png)
 
+
+### Practica 3 - 23/OCTUBRE
+## Insertion Sort
+Salida de Java 
+## Arreglo de numeros Enteros
+![alt text](<assets/InsertionSort(Cadena Numeros).png>)
+
+## Arreglo de cadena
+Salida de Java
+![alt text](<assets/InsertionSort(Cadena Nombres).png>)
+
+## Arreglo de Personas ordenado por Nombre
+Salida de Java
+![alt text](<assets/InsertionSort(Arreglo de Personas por Nombre).png>)
+
+
+
